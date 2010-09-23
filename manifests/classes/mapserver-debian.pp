@@ -64,7 +64,8 @@ class mapserver::debian {
           "proj-data", 
           "libgeos-dev",
           "libgeos-c1",
-          "libgeos-3.1.0"
+          "libgeos-3.1.0",
+          "libgeos-3.2.0",
         ]:
         pin => "release a=${lsbdistcodename}-backports",
         priority => "1100";
