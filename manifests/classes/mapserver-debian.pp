@@ -1,14 +1,13 @@
 class mapserver::debian {
 
   case $lsbdistcodename {
-    lenny: {
+    lenny, squeeze: {
 
       file {"/usr/share/proj/epsg":
         ensure => present,
         require => Package["proj-data"],
         source  => $mapserver_epsg ? {
           'minimal' => "puppet:///mapserver/epsg.minimal",
-          'legacy'  => "puppet:///mapserver/epsg.legacy",
           default   => undef,
         },
       }
@@ -31,5 +30,10 @@ class mapserver::debian {
         ensure => present,
       }
     }
+
+    default: {
+      fail "This release is not supported by mapserver::debian"
+    }
   }
+
 }
