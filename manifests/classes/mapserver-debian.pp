@@ -3,15 +3,6 @@ class mapserver::debian {
   case $lsbdistcodename {
     lenny, squeeze: {
 
-      file {"/usr/share/proj/epsg":
-        ensure => present,
-        require => Package["proj-data"],
-        source  => $mapserver_epsg ? {
-          'minimal' => "puppet:///mapserver/epsg.minimal",
-          default   => undef,
-        },
-      }
-
       package {
         [
           "cgi-mapserver",
