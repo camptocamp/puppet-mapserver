@@ -15,7 +15,6 @@ class mapserver::debian {
           "python-gdal",
           "proj-bin",
           "proj-data",
-          "libgeos-dev",
           "libgeos-c1",
         ]:
         ensure => present,
