@@ -7,14 +7,10 @@ class mapserver::debian {
         [
           "cgi-mapserver",
           "mapserver-bin",
-          "perl-mapscript",
           "php5-mapscript",
           "python-mapscript",
           "gdal-bin",
           "python-gdal",
-          "proj-bin",
-          "proj-data",
-          "libgeos-c1",
         ]:
         ensure => present,
       }
