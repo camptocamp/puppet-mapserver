@@ -11,7 +11,6 @@ class mapserver::debian {
           "php5-mapscript",
           "python-mapscript",
           "gdal-bin",
-          "libecw",
           "python-gdal",
           "proj-bin",
           "proj-data",
