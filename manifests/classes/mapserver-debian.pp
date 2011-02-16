@@ -11,6 +11,7 @@ class mapserver::debian {
           "python-mapscript",
           "gdal-bin",
           "python-gdal",
+          "proj-data",
         ]:
         ensure => present,
       }
