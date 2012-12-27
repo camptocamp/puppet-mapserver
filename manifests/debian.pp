@@ -1,7 +1,7 @@
 class mapserver::debian {
 
   case $lsbdistcodename {
-    lenny, squeeze: {
+    lenny, squeeze, wheezy: {
 
       package {
         [
