@@ -1,25 +1,3 @@
-class mapserver::debian {
-
-  case $lsbdistcodename {
-    lenny, squeeze, wheezy: {
-
-      package {
-        [
-          "cgi-mapserver",
-          "mapserver-bin",
-          "php5-mapscript",
-          "python-mapscript",
-          "gdal-bin",
-          "python-gdal",
-          "proj-data",
-        ]:
-        ensure => present,
-      }
-    }
-
-    default: {
-      fail "This release is not supported by mapserver::debian"
-    }
-  }
-
+class mapserver::debian inherits mapserver {
+  notice('Class[Mapserver::Debian] is deprecated, please use Class[mapserver]')
 }
