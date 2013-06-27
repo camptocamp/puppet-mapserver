@@ -1,0 +1,8 @@
+name         'camptocamp-mapserver'
+version      '0.1.0'
+source       'https://github.com/camptocamp/puppet-mapserver'
+author       'Camptocamp'
+license      'Apache 2.0'
+summary      'Camptocamp Mapserver Module'
+description  'Puppet module for Mapserver'
+project_page 'https://github.com/camptocamp/puppet-mapserver'
