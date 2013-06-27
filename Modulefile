@@ -1,5 +1,6 @@
 name         'camptocamp-mapserver'
 version      '0.1.0'
+dependency   'puppetlabs/stdlib', '>= 0.1.3'
 source       'https://github.com/camptocamp/puppet-mapserver'
 author       'Camptocamp'
 license      'Apache 2.0'
