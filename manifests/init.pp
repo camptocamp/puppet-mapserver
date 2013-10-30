@@ -25,8 +25,6 @@ class mapserver {
     ],
   }
 
-  package { $packages:
-    ensure => present,
-  }
+  ensure_packages( $packages )
 
 }
