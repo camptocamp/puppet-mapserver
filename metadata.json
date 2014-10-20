@@ -1,0 +1,14 @@
+{
+  "name": "camptocamp-mapserver",
+  "version": "0.2.0",
+  "author": "Camptocamp",
+  "summary": "Camptocamp Mapserver Module",
+  "license": "Apache 2.0",
+  "source": "https://github.com/camptocamp/puppet-mapserver",
+  "project_page": "https://github.com/camptocamp/puppet-mapserver",
+  "issues_url": "https://github.com/camptocamp/puppet-mapserver/issues",
+  "description": "Puppet module for Mapserver",
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 0.1.3"}
+  ]
+}
