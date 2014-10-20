@@ -1,5 +1,6 @@
 # Mapserver Puppet Module
 
+[![Puppet Forge](http://img.shields.io/puppetforge/v/camptocamp/mapserver.svg)](https://forge.puppetlabs.com/camptocamp/mapserver)
 [![Build Status](https://travis-ci.org/camptocamp/puppet-mapserver.png?branch=master)](https://travis-ci.org/camptocamp/puppet-mapserver)
 
 This module is provided by [Camptocamp](http://www.camptocamp.com/)
