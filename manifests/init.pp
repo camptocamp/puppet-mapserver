@@ -7,7 +7,7 @@ class mapserver {
   )
 
   $packages = $::osfamily ? {
-    Debian => [
+    'Debian' => [
       'cgi-mapserver',
       'mapserver-bin',
       'php5-mapscript',
@@ -16,7 +16,7 @@ class mapserver {
       'python-gdal',
       'proj-data',
     ],
-    RedHat => [
+    'RedHat' => [
       'mapserver-python',
       'php-mapserver',
       'gdal',

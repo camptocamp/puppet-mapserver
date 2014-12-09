@@ -6,7 +6,7 @@ describe 'mapserver' do
     } }
 
     it 'should fail' do
-      expect { should compile }.to raise_error(Puppet::Error, /Unsupported OS/)
+      expect { is_expected.to compile }.to raise_error(/Unsupported OS/)
     end
   end
 
@@ -15,7 +15,7 @@ describe 'mapserver' do
       :osfamily => 'RedHat',
     } }
 
-    it { should compile.with_all_deps }
+    it { is_expected.to compile.with_all_deps }
   end
 
   context 'when on Debian' do
@@ -23,6 +23,6 @@ describe 'mapserver' do
       :osfamily => 'Debian',
     } }
 
-    it { should compile.with_all_deps }
+    it { is_expected.to compile.with_all_deps }
   end
 end
