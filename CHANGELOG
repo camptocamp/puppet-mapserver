@@ -1,3 +1,7 @@
+2014-12-16 - Version 0.3.1
+
+- Fix for future parser
+
 2014-10-20 - Version 0.3.0
 
 - Convert Modulefile to metadata.json

@@ -1,6 +1,6 @@
 {
   "name": "camptocamp-mapserver",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": "Camptocamp",
   "summary": "Camptocamp Mapserver Module",
   "license": "Apache 2.0",
@@ -10,5 +10,14 @@
   "description": "Puppet module for Mapserver",
   "dependencies": [
     {"name":"puppetlabs/stdlib","version_requirement":">= 0.1.3"}
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Debian",
+      "operatingsystemrelease": [
+        "6",
+        "7"
+      ]
+    }
   ]
 }
