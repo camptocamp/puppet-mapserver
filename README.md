@@ -1,7 +1,10 @@
 # Mapserver Puppet Module
 
-[![Puppet Forge](http://img.shields.io/puppetforge/v/camptocamp/mapserver.svg)](https://forge.puppetlabs.com/camptocamp/mapserver)
-[![Build Status](https://travis-ci.org/camptocamp/puppet-mapserver.png?branch=master)](https://travis-ci.org/camptocamp/puppet-mapserver)
+[![Puppet Forge Version](http://img.shields.io/puppetforge/v/camptocamp/mapserver.svg)](https://forge.puppetlabs.com/camptocamp/mapserver)
+[![Puppet Forge Downloads](http://img.shields.io/puppetforge/dt/camptocamp/mapserver.svg)](https://forge.puppetlabs.com/camptocamp/mapserver)
+[![Build Status](https://img.shields.io/travis/camptocamp/puppet-mapserver/master.svg)](https://travis-ci.org/camptocamp/puppet-mapserver)
+[![Gemnasium](https://img.shields.io/gemnasium/camptocamp/puppet-mapserver.svg)](https://gemnasium.com/camptocamp/puppet-mapserver)
+[![By Camptocamp](https://img.shields.io/badge/by-camptocamp-fb7047.svg)](http://www.camptocamp.com)
 
 This module is provided by [Camptocamp](http://www.camptocamp.com/)
 
