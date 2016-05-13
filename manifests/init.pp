@@ -10,7 +10,6 @@ class mapserver {
     'Debian' => [
       'cgi-mapserver',
       'mapserver-bin',
-      'php5-mapscript',
       'python-mapscript',
       'gdal-bin',
       'python-gdal',
