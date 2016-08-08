@@ -1,3 +1,7 @@
+## 2016-08-08
+
+Drop php5-mapscript package, please use puppet-cartoweb for that one
+
 ## 2015-08-21 - Release 0.3.14
 
 Use docker for acceptance tests
